@@ -1,0 +1,263 @@
+body, html {
+width:100%;height:100%;margin:0;padding:0;
+}
+.mainblock {
+ height:100%;
+ min-width:715px;
+}
+.maintable {
+border-collapse:collapse;width:100%;height:100%;
+background:url(../img/trans.png) repeat-y right;
+}
+.righttop {
+padding-right:0;
+}
+.menuright {
+background:#3f51b5;
+ height:66px;
+}
+.innerleft {
+ margin-left:50px;
+background:url(../img/pic1_blur.jpg);
+height:100%;
+}
+.blueinner {
+ background:#3f51b5;
+ height:65px;
+}
+.overiner {
+ height:24px;
+ opacity:0.2;
+ background:black;
+ border-bottom:solid 1px white;
+}
+.lefttop {
+width:350px;
+float:left;
+height:100%;
+background:url(../img/pic1.jpg);
+}
+.menuleft {
+ padding:14px 14px;
+ font-size:13px;
+}
+#logo {
+ padding-right:14px;
+}
+.menuleft a {
+ color:#eceff1;
+}
+.right {
+ float:right
+}
+.blockleft {
+ float:left;
+ color:white;
+}
+.blockleft a {
+ border-right:1px solid white;
+ font-size:18px;
+ display:block;
+ float:left;
+ color:white;
+ font-weight:bold;
+ margin:20px 0;
+ padding:0 12px;
+}
+#lastlink {
+ border-right:none;
+}
+.clear{
+clear:both;
+}
+.search {
+ width:320px;
+}
+.button_search {
+background:#3f51b5;
+border:white 1px solid;
+}
+.rrtop {
+ margin-top:15px;
+}
+.citiyes {
+ background:#3f51b5;
+ color:white;
+ margin-top:66px;
+ border-radius:0;
+ margin-left:-40px;
+ padding:20px;
+}
+a.thislang{
+ color:white;
+ font-size:19px;
+ font-weight:bold;
+}
+.lang {
+ background:#3f51b5;
+ min-width:30px;
+ left:-15px;
+ border-radius:none;
+}
+.lang a {
+ color:white;
+}
+.mynav {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+.menu a {
+ display:block;
+ height:60px;
+ text-align:right;
+ color:white;
+ font-size:18px;
+ font-weight:bold;
+ margin-top:1px;
+ background:rgba(0,0,0,0.2);
+}
+.menu span {
+ padding-top:20px;
+ display:block;
+ float:left;
+ text-align:right;
+ width:200px;
+}
+.overa {
+ position:relative;
+ margin-top:-60px;
+ width:10px;
+ margin-left:290px;
+ background:url(../img/trans.png) repeat-y right;
+ height:60px;
+}
+.menu a:hover {
+background:rgba(0,0,0,0.7);
+}
+.overa_new {
+  height:60px;
+  position:relative;
+  margin-top:-60px;
+  width:15px;
+  left:300px;
+}
+.overa_new_small{
+  height:60px;
+  position:relative;
+  margin-top:-60px;
+  width:15px;
+  left:0px;
+}
+#ov_segodnya {
+  background:url(../img/link_segodnya.png) repeat-y right;
+}
+#ov_guide {
+  background:url(../img/link_guide.png) repeat-y right;
+}
+#ov_catalog {
+  background:url(../img/link_catalog.png) repeat-y right;
+}
+#ov_afisha {
+  background:url(../img/link_afisha.png) repeat-y right;
+}
+#ov_accia {
+  background:url(../img/link_accia.png) repeat-y right;
+}
+#ov_izbrannoe {
+  background:url(../img/link_izbrannoe.png) repeat-y right;
+}
+#ov_info {
+  background:url(../img/link_info.png) repeat-y right;
+}
+#ov_play {
+  background:url(../img/link_play.png) repeat-y right;
+}
+.menu .apic {
+ float:right;
+}
+.litt a{
+ font-size:15px;
+}
+.linkbot {
+ background:#ff6f00;
+ color:white;
+ text-align:center;
+ padding:6px 0;
+ font-size:15px;
+ display:block;
+ text-decoration:none;
+}
+.linebread {
+ background:#eaeaea;
+ height:25px;
+ border-bottom:solid 2px #d3d7d8;
+ padding-top:2px;
+ overflow:hidden;
+}
+.bread {
+ float:left;
+ padding-left:5px;
+}
+.breadauth {
+ float:right;
+ padding-right:5px;
+}
+@media screen and (max-width: 1050px) {
+ .search {
+  width:300px;
+ }
+ .blockleft a {
+   font-size: 16px;
+   padding: 0px 6px;
+ }
+}
+@media screen and (max-width: 990px) {
+ .search {
+  width:240px;
+ }
+ .blockleft a {
+   font-size: 15px;
+   padding: 0px 4px;
+ }
+}
+@media screen and (max-width: 900px) {
+ .search {
+  width:200px;
+ }
+ .blockleft a {
+   font-size: 14px;
+   padding: 0px 3px;
+ }
+}
+@media screen and (max-width: 850px) {
+ .search {
+  width:150px;
+ }
+ .blockleft a {
+   font-size: 13px;
+   padding: 0px 2px;
+ }
+}
+@media screen and (max-width: 800px) {
+ .search {
+  width:100px;
+ }
+}
+@media screen and (max-width: 735px) {
+ .menu a span {
+  display:none;
+ }
+ .menuleft{
+  display:none;
+ }
+ .menu  a+div{
+  display:none;
+ }
+ .overa {
+  margin-left:60px;
+ }
+ .lefttop{
+  width:120px;
+ }
+}
